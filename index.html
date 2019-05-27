@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="style.css"/>
     <meta charset="utf-8">
     <title>My VCard</title>
   </head>
   <body>
     <div class="page">
-      <div class="up">
-        <div class="titre">
-          <h1>Carte de visite</h1>
-        </div>
-        <div class="button1">
-          <button type="button" name="Mon CV" onclick="window.location.href = 'https://lionelfranco.github.io/Mon-CV/';">Mon CV</button>
-        </div>
-      </div>
-      <div class="middle">
-        <h2 class="name">Lionel Franco</h2>
-        <div class="description">
-          <p>Je m'appelle Lionel Franco, j'ai 26 ans et je suis actuellement
-            en formation chez BeCode.<br/>
-            Jusqu'ici, mes compétences sont limitées à l'HTML et au CSS.<br/>
-            A la fin de ma formation, je serais capable de coder dans plusieurs languages.</p>
+      <div class="infophoto">
+        <div class="info">
+          <p><strong>Lionel Franco</strong></p>
+          <p><i>Student Web Developper</i></p>
+          <p>lionel.franco2310@gmail.com</p>
+          <p>+32(0)471.79.07.34</p>
         </div>
         <div class="photo">
-          <img src="PhotoProfil.jpg" width="100px" height="125px"/>
+          <img src="PhotoProfil.jpg" alt="Photo" width="85px" height="135px"/>
         </div>
       </div>
-      <div class="bottom">
-        <div class="button2">
-          <button type="button" name="LinkedIN" onclick="window.location.href = 'https://www.linkedin.com/in/lionel-franco-1b3184170/';"><img src="logo-linkedin.png" width="20px" height="20px"/></button>
-        </div>
-        <div class="button3">
-          <button type="button" name='Twitter' onclick="window.location.href = 'https://twitter.com/FrancoL17271761';"><img src="logo-twitter.png" width="20px" height="20px"/></button>
-        </div>
-        <div class="email">
-          <a href="mailto:lionel.franco2310@gmail.com">Me contacter</a>
-        </div>
+    <div class="section">
+      <div class="description">
+        <p>Je suis actuellement en formation chez BeCode.<br/>
+          Mes capacités se limitent actuellement à:<br/>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+          </ul><br/>
+        Une fois ma formation terminée, je serait apte à utiliser la plupart des
+        languages de codage.</p>
       </div>
-        <p class="source">https://images.yourstory.com/production/document_image/mystoryimage/sbhfqk4z-vcard-photoshop-tutorial.jpg?fm=png&auto=format</p>
+      <div class="liens">
+        <p><button type="button" name="linkedin" href="https://www.linkedin.com/in/lionel-franco-1b3184170/"><img src="logo-linkedin.png" height="25px" width="25px"/></button></p><br/>
+        <p><button type="button" name="twitter" href="https://twitter.com/FrancoL17271761"><img src="logo-twitter.png" height="25px" width="25px"/></button></p>
+      </div>
     </div>
+  </div>
   </body>
 </html>
