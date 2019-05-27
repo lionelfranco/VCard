@@ -1,7 +1,7 @@
 body {
   color: black;
   background-color: black;
-  background-image: url(/home/lionel/VCard/degrade-rouge.jpg);
+  background-image: url(https://raw.githubusercontent.com/lionelfranco/VCard/master/degrade-rouge.jpg);
   background-repeat: no-repeat;
 }
 .page {
